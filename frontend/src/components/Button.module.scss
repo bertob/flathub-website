@@ -1,9 +1,9 @@
 .primaryButton,
 .secondaryButton {
-  background-color: var(--color-primary);
-  color: var(--white-10);
+  background-color: rgba(28,113,216,0.16);
+  color: rgba(28,113,216,1);
   border: none;
-  height: 48px;
+  height: 40px;
   padding: 8px 20px;
   border-radius: var(--border-radius);
   white-space: nowrap;
@@ -14,11 +14,11 @@
 
   &:hover:not(:disabled) {
     cursor: pointer;
-    background-color: var(--color-secondary);
+    background-color: rgba(28,113,216,0.26);
   }
 
   &:active:not(:disabled) {
-    background-color: var(--bg-color-primary);
+    background-color: rgba(28,113,216,0.36);
   }
 
   &:disabled {
@@ -26,23 +26,21 @@
     background-color: grey;
   }
 
-  transition: 0.5s;
+  transition: all 0.2s;
 }
 
 .secondaryButton {
-  background-color: var(--bg-color-secondary);
-  color: var(--color-secondary);
+  color: var(--text-primary);
+  background-color: rgba(0,0,0,0.1);
   background-image: unset;
-  border: 1px solid var(--color-secondary);
 
   &:hover:not(:disabled) {
     cursor: pointer;
-    background-color: var(--color-primary);
-    color: var(--white-10);
+    background-color: rgba(0,0,0,0.16);
   }
 
   &:active:not(:disabled) {
-    background-color: var(--bg-color-primary);
+    background-color: rgba(0,0,0,0.3);
   }
 
   &:disabled {
