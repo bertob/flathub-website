@@ -43,6 +43,9 @@
 
     .actions {
       margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
       & > .secondaryButton {
         text-decoration: none;
