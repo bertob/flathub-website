@@ -96,14 +96,17 @@
 
       border-radius: var(--border-radius);
 
-      background-color: var(--bg-color-secondary);
-      color: var(--color-secondary);
-      border: 1px solid var(--color-primary);
+      color: var(--text-primary);
+      background-color: rgba(0,0,0,0.1);
+
       line-height: 1em;
 
       &:hover {
-        background-color: var(--color-primary);
-        color: var(--white-10);
+        background-color: rgba(0,0,0,0.16);
+        cursor: pointer;
+      }
+      &:active {
+        background-color: rgba(0,0,0,0.26);
         cursor: pointer;
       }
     }

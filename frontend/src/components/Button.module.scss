@@ -40,11 +40,6 @@
   }
 
   &:active:not(:disabled) {
-    background-color: rgba(0,0,0,0.3);
-  }
-
-  &:disabled {
-    color: var(--white-10);
-    border: none;
+    background-color: rgba(0,0,0,0.26);
   }
 }
