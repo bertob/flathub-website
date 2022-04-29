@@ -30,7 +30,7 @@ const ApplicationSection: FunctionComponent<Props> = ({
         {showMore && (
           <Link href={href} passHref>
             <a>
-              <Button>{t("more")}</Button>
+              <Button variant="secondary">{t("more")}</Button>
             </a>
           </Link>
         )}
