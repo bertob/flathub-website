@@ -24,13 +24,13 @@
     }
 
     &:first-child {
-      border-top-right-radius: var(--border-radius);
-      border-top-left-radius: var(--border-radius);
+      border-top-right-radius: var(--border-radius-card);
+      border-top-left-radius: var(--border-radius-card);
     }
 
     &:last-child {
-      border-bottom-left-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
+      border-bottom-left-radius: var(--border-radius-card);
+      border-bottom-right-radius: var(--border-radius-card);
       border-bottom-width: 1px;
     }
 
