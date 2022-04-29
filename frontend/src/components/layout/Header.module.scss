@@ -141,14 +141,13 @@
             margin: auto 0;
             border-radius: unset;
           }
-          border-bottom: 1px solid var(--color-primary);
         }
 
         .navItem {
           padding: 8px 20px;
           margin: 0 6px;
           border-radius: var(--border-radius);
-          font-weight: 500;
+          font-weight: 600;
           display: block;
           transition: 0.5s;
           color: var(--white-10);
